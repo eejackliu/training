@@ -14,7 +14,7 @@ public:
                        else if((i%3)&&(!(i%5)))
                            out.push_back("Buzz");
                        else if((!(i%3))&&(!(i%5)))
-                           out.push_back("FizeBuzz");
+                           out.push_back("FizzBuzz");
                        else
                        {
                            stringstream ss;
